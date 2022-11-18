@@ -13,7 +13,7 @@ class ConfigurationManager:
 
     def get_data_ingestion_config(self) -> DataIngestionConfig:
         config = self.config.data_ingestion
-
+        
         create_directories([config.root_dir])
 
         data_ingestion_config = DataIngestionConfig(
