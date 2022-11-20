@@ -6,11 +6,14 @@ numpy
 matplotlib
 seaborn
 python-box==6.0.2
-types-PyYAML
-scipy
+pyYAML
 tqdm
 ensure==1.0.2
 joblib
+types-PyYAML
+sklearn
+scipy
+mlflow==1.26.1
 -e .
 
 ## Dev requirements

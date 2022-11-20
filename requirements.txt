@@ -10,5 +10,9 @@ pyYAML
 tqdm
 ensure==1.0.2
 joblib
+types-PyYAML
+sklearn
+scipy
+mlflow==1.26.1
 
 -e .
